@@ -1,0 +1,622 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="AdvancedBetCalc.com.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta name="description" content="AdvancedBetCalc - advanced betting tools & calculators. Mathematical approach to chances & odds. For optimum investing & maximum performance."/>
+<link id="Link1" runat="server" rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+            <link id="Link2" runat="server" rel="icon" href="favicon.ico" type="image/ico"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+               .style9
+        {
+            width: 35px;
+            height: 180px;
+        }
+        .style12
+        {
+            width: 60px;
+            height: 94px;
+            text-align: right;
+        }
+        .style14
+        {
+            width: 640px;
+            height: 94px;
+        }
+        .style15
+        {
+            background-color: #333333;
+        }
+        .style18
+        {
+            width: 20px;
+            font-size: 20pt;
+            height: 94px;
+            text-align: right;
+        }
+        .style19
+        {
+            width: 300px;
+            height: 40px;
+            text-align: left;
+        }
+        .style21
+        {
+            width: 35px;
+            height: 35px;
+        }
+        .style24
+        {
+            width: 400px;
+            height: 40px;
+            text-align: left;
+        }
+        .style26
+        {
+            width: 35px;
+            height: 40px;
+        }
+        .style29
+        {
+            width: 420px;
+            height: 40px;
+            text-align: left;
+        }
+        .style30
+        {
+            width: 420px;
+        }
+        .style31
+        {
+            text-align: left;
+        }
+        .style32
+        {
+        }
+        .style35
+        {
+            width: 35px;
+        }
+        .style42
+        {
+            height: 20px;
+            text-align: left;
+        }
+        .style43
+        {
+            width: 420px;
+            height: 20px;
+        }
+        .style48
+        {
+            width: 10px;
+        }
+        .style49
+        {
+            width: 10px;
+            height: 20px;
+        }
+        .style51
+        {
+            width: 400px;
+            text-align: left;
+        }
+        .style53
+        {
+            width: 50px;
+            height: 20px;
+            text-align: right;
+        }
+        .style54
+        {
+            text-align: left;
+        }
+        .style55
+        {
+            width: 10px;
+            height: 20px;
+            text-align: left;
+        }
+        .style56
+        {
+            width: 350px;
+            height: 20px;
+            text-align: left;
+        }
+        .style57
+        {
+            width: 100%;
+        }
+        .style58
+        {
+            width: 140px;
+        }
+        .style59
+        {
+            width: 60px;
+            height: 20px;
+            text-align: right;
+        }
+        .style63
+        {
+            font-size: 20pt;
+            height: 20px;
+        }
+        .style66
+        {
+            width: 300px;
+            height: 94px;
+        }
+        .style67
+        {
+            width: 152px;
+            height: 94px;
+            text-align: right;
+        }
+        .style68
+        {
+            width: 152px;
+            height: 20px;
+            text-align: right;
+        }
+        .auto-style1 {
+            color: #000000;
+        }
+            </style>
+</head>
+    <span class="auto-style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- Affiliate Code Do NOT Modify--><script type='text/javascript' src="http://wlpinnaclesports.adsrv.eacdn.com/S.ashx?btag=a_12276b_5527c_&affid=13335&siteid=12276&adid=5527&c=" ></script><!-- End affiliate Code--></span>&nbsp;<p>
+<body>
+    <h1 style="font-size: 0px">AdvancedBetCalc advanced bet betting bets calc calculator</h1>
+    <h2 style="font-size: 0px">AdvancedBetCalc advanced bet betting bets calc calculator</h2>
+<script>    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script>
+    <form runat="server">
+    <div class="header2" 
+        
+         style="background-color: #000000; font-family: Arial; color: #C0C0C0; height: 30px;">
+     
+        <table class="style57">
+            <tr>
+                <td class="style58">
+                    &nbsp;</td>
+                <td>
+                <asp:Menu ID="Menu7" runat="server" BackColor="Transparent" BorderStyle="None" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="False" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="0.9em" ForeColor="#3C6AB9" 
+                    Orientation="Horizontal" StaticSubMenuIndent="10px" Width="320px">
+                    <DynamicHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#66FF66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Index.aspx" Text="Home  |" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Download1.aspx" Text="Downloads  |" 
+                            Value="Downloads">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Manifest.aspx" Text="Manifest  |" Value="Blog"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Theory.aspx" Text="Theory  |" Value="FAQ"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About Us.aspx" Text="About Us" Value="About">
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderStyle="None" ForeColor="#999999" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+     
+    </div>
+    <div class="header2" 
+        style="background-color: #1F1F1F; font-family: Arial; color: #333333">
+       
+        <table border="0" cellpadding="0" cellspacing="0" style="border-style: none">
+            <tr>
+                <td class="style67">
+                </td>
+                <td class="style18">
+                    <asp:Image ID="Image3" runat="server" Height="20px" 
+                        ImageUrl="~/Slike/Logosmall.gif" Width="20px" />
+                </td>
+                <td class="style66" style="text-align: right; color: #1F1F1F;">
+                    <asp:Menu 
+                        ID="Menu2" runat="server" BackColor="Transparent" BorderStyle="None" 
+                    DisappearAfter="50" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="True" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="20pt" ForeColor="#4D4D4D" 
+                    Orientation="Horizontal" StaticSubMenuIndent="10px" Width="300px" 
+                        Height="38px" style="color: #808080">
+                    <DynamicHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#66FF66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Index.aspx" Text="AdvancedBetCalc.com" 
+                            Value="Home"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#1F1F1F" BorderStyle="None" ForeColor="#0080FF" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="#666666" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+                <td class="style14" style="text-align: right; color: #1F1F1F;">
+                    <asp:Image ID="Image2" runat="server" Height="95px" Width="321px" 
+                        CssClass="style15" ImageUrl="~/Slike/ABCball.JPG" />
+                </td>
+                <td class="style12" style="text-align: right">
+                </td>
+            </tr>
+            <tr>
+                <td class="style68" height="28">
+                </td>
+                <td class="style63" colspan="3" height="28" 
+                    style="border: 0px solid #0066FF; padding: 0px; margin: 0px; background-color: #3C6AB9; border-collapse: collapse; text-align: right;">
+                <asp:Menu ID="Menu1" runat="server" BackColor="Transparent" BorderStyle="None" 
+                    DisappearAfter="100" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="False" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="12pt" ForeColor="White" 
+                    Orientation="Horizontal" StaticSubMenuIndent="10px" Width="950px" 
+                        Height="28px" StaticEnableDefaultPopOutImage="False" 
+                        style="text-align: left">
+                    <DynamicHoverStyle BackColor="#3C6AB9" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="4px" VerticalPadding="5px" 
+                        BackColor="#1C3D88" ForeColor="White" BorderStyle="None" 
+                        ItemSpacing="3px" Font-Names="Arial" Font-Size="9pt" />
+                    <DynamicMenuStyle BackColor="#1F449C" VerticalPadding="15px" Height="60px" 
+                        HorizontalPadding="0px" />
+                    <DynamicSelectedStyle BackColor="#3C6AB9" BorderStyle="None" 
+                        ForeColor="#CCFFFF" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/welcome.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem Text="Calculators" 
+                            Value="Calculator">
+                            <asp:MenuItem Text="Asian handicap" Value="Asian handicap" 
+                                NavigateUrl="~/Asian handicap.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Exchange calc" Value="Exchange calc" 
+                                NavigateUrl="~/Exchange.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Hitting calc" Value="Hitting calc" 
+                                NavigateUrl="~/Hitting.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Kelly's Criterion" Value="New Item" 
+                                NavigateUrl="~/Kelly.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Multi Kelly.aspx" Text="Multi Kelly calc" Value="Multi Kelly calc"></asp:MenuItem>
+                            <asp:MenuItem Text="Odds converter" Value="Odds converter" 
+                                NavigateUrl="~/Odds Converter.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Probability collisions.aspx" Text="Probability collisions" Value="Probability collisions"></asp:MenuItem>
+                            <asp:MenuItem Text="Spread calc" Value="Spread calc" 
+                                NavigateUrl="~/Spread Calc.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Systems table" Value="New Item" 
+                                NavigateUrl="~/Systems Table.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Win Calculator" Value="New Item" 
+                                NavigateUrl="~/Win Calc.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Analytic tools" 
+                            Value="Analytic tools">
+                            <asp:MenuItem Text="Bivariate Poisson" Value="Poisson regression calc" 
+                                NavigateUrl="~/BvPoisson.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Racing tool" Value="Racing calc" 
+                                NavigateUrl="~/Racing.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Tennis tool" Value="Tennis calc" 
+                                NavigateUrl="~/TennisTool.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Smart Ticket.aspx" Text="Smart ticket" 
+                                Value="Smart ticket"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Soccer tool.aspx" Text="Soccer tool" Value="Soccer tool"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Downloads" 
+                            Value="Downloads">
+                            <asp:MenuItem Text="Desktop version" Value="New Item" 
+                                NavigateUrl="~/Download1.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Theory.pdf" Value="New Item" NavigateUrl="~/Theory.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="http://www.advancedbetcalc.com/Download/mk15.exe" 
+                                Text="&quot;MultiKelly Calc.&quot;" Value="&quot;MultiKelly Calc.&quot;">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Theory.aspx" Text="Theory" Value="Blog">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/FAQ.aspx" Text="FAQ/Help" Value="FAQ/Help">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About Us.aspx" Text="About Us" 
+                            Value="About"></asp:MenuItem>
+                        <asp:MenuItem Text="Contact" Value="Contact" 
+                            NavigateUrl="mailto:Contact@AdvancedBetCalc.com"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderStyle="None" ForeColor="White" BackColor="#1F449C" 
+                        Height="28px" />
+                    <StaticMenuItemStyle VerticalPadding="3" HorizontalPadding="10" ItemSpacing="100" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="#3C6AB9" BorderStyle="None" ForeColor="White" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+                <td class="style59" style="text-align: right" width="60" height="28">
+                </td>
+            </tr>
+            </table>
+        
+    </div>
+                <br />
+            <br />
+        <div class="page">
+        <div class="header"
+        
+                
+                style="background-color: transparent; font-family: Arial; color: White; top: 0px; left: 620px;">
+            <div class="clear hideSkiplink" style="background-color: transparent">
+            <div id="fb-root">
+                <div class="fb-like" data-href="http://www.AdvancedBetCalc.com" 
+                    data-layout="standard" data-action="like" data-show-faces="false" 
+                    data-share="true" align="right" data-colorscheme="dark"></div>
+            </div>
+<script>    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script>
+    </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+            <br />
+        </div>
+        <br />            
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="footer" 
+        style="background-color: #000000; font-family: Arial; color: #C0C0C0">
+        
+        <table border="0">
+            <tr>
+                <td class="style21" rowspan="3">
+                </td>
+                <td class="style51" colspan="2">
+                    &nbsp;
+                    <asp:Label ID="Label3" runat="server" ForeColor="#999999" 
+                        style="font-size: 16pt; font-family: Arial; font-weight: 700" 
+                        Text="AdvancedBetCalc.com"></asp:Label>
+                </td>
+                <td class="style32" style="text-align: left" colspan="2" width="420">
+                    &nbsp;</td>
+                <td class="style31" colspan="2">
+                    &nbsp;</td>
+                <td class="style9" style="text-align: right" rowspan="6" width="35">
+                </td>
+            </tr>
+            <tr>
+                <td class="style53" height="20">
+                &nbsp;<asp:HyperLink ID="HyperLinkEMail" runat="server" ForeColor="#3C6AB9" 
+                        Height="20px" style="text-align: center; font-size: 10pt" Width="40px">e-mail:</asp:HyperLink>
+                </td>
+                <td class="style56" height="20">
+                    <asp:Menu 
+                        ID="Menu3" runat="server" BackColor="Transparent" BorderStyle="None" 
+                    DisappearAfter="50" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="True" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="8pt" ForeColor="#4D4D4D" 
+                    Orientation="Horizontal" StaticSubMenuIndent="10px" Width="150px" 
+                        Height="20px" style="color: #808080">
+                    <DynamicHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#66FF66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="mailto:Contact@AdvancedBetCalc.com" 
+                            Text="Contact@AdvancedBetCalc.com" Value="Home"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#E4E4E4" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="#666666" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+                <td class="style49" style="text-align: left" height="20">
+                    &nbsp;</td>
+                <td class="style43" style="text-align: left" height="20">
+                    <asp:Label ID="Label5" runat="server" ForeColor="#3C6AB9" Height="20px" 
+                        style="font-size: 10pt; color: #999999" Text="About advancedbetcalc.com"></asp:Label>
+                </td>
+                <td class="style55" height="20">
+                </td>
+                <td class="style42" height="20">
+                    <asp:Label ID="Label4" runat="server" ForeColor="#3C6AB9" Height="20px" 
+                        style="font-size: 10pt; color: #999999; margin-bottom: 0px;" 
+                        Text="Webmaster: K&amp;J web design"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="style54" colspan="2" rowspan="2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="Image4" runat="server" Height="75px" 
+                        ImageUrl="~/Slike/Logo0.gif" Width="53px" />
+                </td>
+                <td class="style48" style="text-align: left" rowspan="2">
+                    <asp:Label ID="Label12" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label13" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label14" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label15" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label16" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label17" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                </td>
+                <td class="style30" style="text-align: left" rowspan="2">
+                <asp:Menu ID="Menu6" runat="server" BackColor="Transparent" BorderStyle="None" 
+                    DisappearAfter="1200" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="False" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="0.9em" ForeColor="#666666" 
+                        StaticSubMenuIndent="10px" Width="100px" style="text-align: left">
+                    <DynamicHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#66FF66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="index.aspx" Text="Home page" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem Text="Why are we here" Value="Downloads" 
+                            NavigateUrl="~/About Us.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Download1.aspx" Text="Downloads" Value="About">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Theory.aspx" Text="Investing theory" Value="Blog"></asp:MenuItem>
+                        <asp:MenuItem Text="Contact Us" Value="FAQ" 
+                            NavigateUrl="mailto:Contact@AdvancedBetCalc.com"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderStyle="None" ForeColor="#999999" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+                <td class="style48" style="text-align: right" rowspan="2">
+                    <asp:Label ID="Label23" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label20" runat="server" ForeColor="#3C6AB9" Text="►"></asp:Label>
+                </td>
+                <td style="text-align: right" rowspan="2">
+                <asp:Menu ID="Menu5" runat="server" BackColor="Transparent" BorderStyle="None" 
+                    DisappearAfter="1200" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="False" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="0.9em" ForeColor="#666666" 
+                        StaticSubMenuIndent="10px" Width="100px" style="text-align: left">
+                    <DynamicHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#66FF66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="mailto:webmailowner@gmail.com" 
+                            Text="Contact webmaster" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem 
+                            Text="Other web pages by K&amp;J." Value="Downloads" 
+                            ToolTip="Temporarily unavailable">
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderStyle="None" ForeColor="#999999" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td class="style35">
+                </td>
+            </tr>
+            <tr>
+                <td class="style35">
+                </td>
+                <td class="style51" colspan="2">
+                    &nbsp;</td>
+                <td class="style30" style="text-align: right" colspan="2">
+                </td>
+                <td style="text-align: right" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td class="style35">
+                    &nbsp;</td>
+                <td class="style51" colspan="2">
+                <asp:Menu ID="Menu4" runat="server" BackColor="Transparent" BorderStyle="None" 
+                    DisappearAfter="1200" DynamicHorizontalOffset="2" 
+                    DynamicPopOutImageTextFormatString="" Font-Bold="False" Font-Italic="False" 
+                    Font-Names="Arial" Font-Size="0.9em" ForeColor="#666666" 
+                    Orientation="Horizontal" StaticSubMenuIndent="10px" Width="320px">
+                    <DynamicHoverStyle BackColor="Black" BorderStyle="None" ForeColor="#66FF66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" />
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Download1.aspx" Text="Downloads  |" 
+                            Value="Downloads">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Manifest.aspx" Text="Manifest  |" Value="Blog"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About Us.aspx" Text="About Us" Value="About">
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderStyle="None" ForeColor="#999999" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticMenuStyle BorderStyle="None" />
+                    <StaticSelectedStyle BackColor="Black" BorderStyle="None" ForeColor="Lime" 
+                        ItemSpacing="50px" />
+                </asp:Menu>
+                </td>
+                <td class="style30" style="text-align: right" colspan="2">
+                    &nbsp;</td>
+                <td style="text-align: right" colspan="2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style26">
+                </td>
+                <td class="style24" colspan="2">
+                    &nbsp;<asp:Label ID="Label1" runat="server" ForeColor="#3C6AB9" 
+                        style="font-size: 10pt" 
+                        Text="© All rights reserved: AdvancedBetCalc.com  |  2015." Width="305px"></asp:Label>
+                </td>
+                <td class="style29" colspan="2">
+                    <asp:Label ID="Label2" runat="server" ForeColor="Gray" 
+                        style="font-size: 10pt; color: #999999" 
+                        Text=" Website is intended for educational purposes only."></asp:Label>
+                </td>
+                <td class="style19" colspan="2">
+                    <asp:Image ID="Image1" runat="server" Height="46px" 
+                        ImageUrl="~/Slike/Logo1.bmp" Width="270px" />
+                </td>
+                <td class="style26" width="35">
+                </td>
+            </tr>
+            </table>
+        
+    </div>
+    </form>
+</body>
+</html>
