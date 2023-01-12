@@ -3,5 +3,5 @@
   "path": "./",
   "clr": "v4.0",
   "protocol": "http",
-  "url": "http://localhost:24535/index.aspx"
+  "url": "index.aspx"
 }
