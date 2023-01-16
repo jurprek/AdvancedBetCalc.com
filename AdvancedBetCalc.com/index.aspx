@@ -1,4 +1,4 @@
-﻿<%@ Page Title="AdvancedBetCalc.com" Language="vb" AutoEventWireup="false" CodeBehind="index.aspx.vb" Inherits="AdvancedBetCalc.com.Webform4" %>
+﻿<//%@ Page Title="AdvancedBetCalc.com" Language="vb" AutoEventWireup="false" CodeBehind="index.aspx.vb" Inherits="AdvancedBetCalc.com.Webform4" %>
 
 
 
