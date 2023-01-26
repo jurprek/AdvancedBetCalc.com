@@ -9,7 +9,7 @@
                     Width="663px">The real truth about successful betting
 (Mathematical point of view - AdvancedBetCalc.com Blog)
 
-&#39;ll get to the point immediately, so that you don&#39;t think I&#39;ve been insincere in a title..
+&#39;ll get to the point immediately, so that you don&#39;t think I&#39;ve been insincere in a title.
 The truth is: You can be successful, but you probably won&#39;t
 That is the reason why gambling causes addiction. If a player is winning then people call him a
 professional, but when he&#39;s losing, then they call him an addict. I have never heard that
