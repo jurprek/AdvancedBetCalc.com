@@ -18,7 +18,7 @@ when people lose money and perpetually do it again and again... leading themselv
 and destroying their lives and lives of their loved ones. On the other hand, if they make a good
 money out of it, they are considered to be smart and if they spent all day doing it, then they are
 &quot;hard working people&quot;.
-This will not be a story about addiction, although I sincerely hope that it will open eyes of those
+This will not be a story about addiction, although I sincerely hope that it will open eyes of those 
 among us, who maybe have addiction problems ...but were in lack of information, necessary to
 recognize it. They have my sympathy, as they have my best wishes in finding true fortune in life,
 far from the world of gambling..
